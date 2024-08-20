@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+  }
+  
+  /* PÁGINA SOBRE */
+  
+  body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  nav {
+    display: flex;
+    background-color: rgb(48, 69, 96);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  nav div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  img {
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+    margin-bottom: 40px;
+    border: 6px solid rgb(71, 95, 126);
+  }
+  
+  nav a {
+    color: #ffff;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  
+  nav a:hover {
+    opacity: 100%;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    flex-direction: column;
+  }
+  
+  main h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  main h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 13.2px;
+    font-weight: bold;
+  }
+  
+  main p {
+    margin: 100px 0;
+    font-weight: bold;
+  }
+  
+  main div {
+    display: flex;
+    gap: 30px;
+  }
+  
+  i {
+    font-size: 50px;
+    color: rgb(80, 80, 80);
+    transition: 0.5s;
+  }
+  
+  i:hover {
+    opacity: 0.5;
+  }
+  
+  main span {
+    color: rgb(39, 86, 148);
+    transition: 0.5s;
+  }
+  
+  main h4 span:hover {
+    opacity: 0.5;
+  }
+  
+  /* CONHECIMENTOS */
+  
+  main ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  #conhecimentos li {
+    font-size: 2rem;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  
+  #conhecimentos li:hover {
+    color: rgb(56, 109, 179);
+    cursor: pointer;
+  }
+  
+  /* OBJETIVOS */
+  
+  #objetivos h2 {
+    padding: 30px 0 0 50px;
+  }
+  
+  #objetivos ul {
+    padding: 20px 0 0 90px;
+    font-weight: bold;
+  }
+  
